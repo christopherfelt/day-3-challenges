@@ -1,0 +1,24 @@
+* {
+  border-radius: 0 !important;
+}
+
+body {
+  background-color: #feffff;
+}
+
+.media-font-size {
+  font-size: 12px;
+}
+
+.green-color {
+  background-color: #21b1aa;
+}
+
+.green-color-text {
+  color: #21b1aa;
+}
+
+/* .card-width {
+  width: 300px;
+  height: 100px;
+} */
