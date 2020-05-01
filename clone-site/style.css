@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+
+:root {
+  --pink: #a33b5c;
+  --green: #15e6cd;
+  --purple: #ada8b6;
+  --blue: #559ab6;
+  --electric: #dff9fa;
+}
+
+@font-face {
+  font-family: vampire-heart;
+  src: url(VampireHeart-W26G.ttf);
+}
+
+body {
+  background-color: var(--purple);
+}
+
+footer {
+  height: 75px;
+}
+
+.title-text {
+  font-family: vampire-heart;
+  font-size: 20em;
+  color: white;
+}
+
+.script-font {
+  font-family: "Marck Script", cursive;
+  font-size: 2em;
+}
+
+.box-shadow {
+  box-shadow: 1px 1px 10px 2px;
+}
+
+.box-shadow-bottom {
+  box-shadow: 0 2px 10px 2px;
+}
+
+@media only screen and (max-width: 576px) {
+  .title-text {
+    font-size: 5em;
+  }
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.pink-bg {
+  background-color: var(--pink);
+}
+
+.pink-text {
+  color: var(--pink);
+}
+
+.purple-bg {
+  background-color: var(--purple);
+}
+
+.purple-text {
+  color: var(--purple);
+}
+
+.electric-bg {
+  background-color: var(--electric);
+}
+
+.electric-text {
+  color: var(--electric);
+}
+
+.blue-bg {
+  background-color: var(--blue);
+}
+
+.h-60em {
+  height: 60em;
+}
+
+.top-bg-img {
+  background: url(butterfly-face.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 55%;
+}
+
+.grow {
+  transition: 1s;
+}
+
+.grow:hover {
+  z-index: 999;
+  transform: scale(1.1);
+}
